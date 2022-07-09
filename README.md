@@ -57,7 +57,7 @@ python main.py --source_bib <source bib file> --target_bib <target bib file>
 ```
 For example
 ```
-python main.py --source_bib ./original_bib.bib --target_bib ./tar_bib.bib
+python main.py --source_bib ./original_bib.bib --target_bib ./target_bib.bib
 ```
 
 
