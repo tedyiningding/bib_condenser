@@ -1,6 +1,6 @@
 # bib_condenser
 ## What does it do
-A simple python script that condenses and neatens bib entries by discarding unnecessary fields and abbreviating conference/journal names (currently covering the area of **computer vision**, **robotics** and **machine/deep learning**). See the json file for details.
+A simple python script that condenses and neatens bib entries by discarding unnecessary fields and abbreviating conference/journal names (currently covering the area of **computer vision**, **robotics** and **machine/deep learning**). See the [json file](./setup.json) for details.
 
 It changes bib files from
 ```
