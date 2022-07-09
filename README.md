@@ -1,6 +1,6 @@
 # bib_condenser
 ## What does it do
-A simple python script that condenses bib entries by discarding unnecessary fields and abbreviates conference/journal names (currently covering the area of **computer vision**, **robotics**, **machine/deep learning**). See the json file for details.
+A simple python script that condenses and neatens bib entries by discarding unnecessary fields and abbreviates conference/journal names (currently covering the area of **computer vision**, **robotics** and **machine/deep learning**). See the json file for details.
 
 It changes bib files from
 ```
@@ -62,5 +62,5 @@ python main.py --source_bib ./original_bib.bib --target_bib ./tar_bib.bib
 
 
 ## Requirements
-- Python>=3.10 which supports [structural pattern matching](https://docs.python.org/3.10/whatsnew/3.10.html#pep-634-structural-pattern-matching)
+- Python>=3.10 that supports [structural pattern matching](https://docs.python.org/3.10/whatsnew/3.10.html#pep-634-structural-pattern-matching)
 - The [BibtexParser](https://bibtexparser.readthedocs.io/en/master/index.html) package
