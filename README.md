@@ -44,7 +44,7 @@ The corresponding rendered Reference section in your paper will change from
 > 
 >[2] Jia-Ren Chang and Yong-Sheng Chen. Pyramid stereo matching network. In *Proceedings of the IEEE conference on computer vision and pattern recognition*, pages 5410–5418, 2018.
 
-to;
+to
 
 >[1] Heiko Hirschmuller. Stereo processing by semiglobal matching and mutual information. *PAMI*, 2007.
 >
