@@ -1,16 +1,26 @@
+import argparse
 import json
 import bibtexparser
 from bibtexparser.bwriter import BibTexWriter
 
-# read source json file
-with open('source.json') as f:
-    source = json.load(f)
-fields_to_keep = source['fields'][0]
-conference_mappings = source['mappings'][0]['conferences']
-journal_mappings = source['mappings'][0]['journals']
+
+parser = argparse.ArgumentParser(description='source and target bib files')
+parser.add_argument('--source_bib', type=str, help='the source bib file', default='./original_bib.bib')
+parser.add_argument('--target_bib', type=str, help='the target bib file', default='./refined_bib.bib')
+args = parser.parse_args()
+
+source_bib = args.source_bib
+target_bib = args.target_bib
+
+# read setup json file
+with open('./setup.json') as f:
+    setup = json.load(f)
+fields_to_keep = setup['fields'][0]
+conference_mappings = setup['mappings'][0]['conferences']
+journal_mappings = setup['mappings'][0]['journals']
 
 # read bib file
-with open('original_bib.bib') as bibtex_file:
+with open(source_bib) as bibtex_file:
     bib_original = bibtexparser.load(bibtex_file)
 
 # refine bib
@@ -44,5 +54,5 @@ for entry in bib_refined.entries:
 # export to bib
 writer = BibTexWriter()
 writer.indent = '    '     # indent entries with 4 spaces instead of one
-with open('refined_bib.bib', 'w') as bibfile:
+with open(target_bib, 'w') as bibfile:
     bibfile.write(writer.write(bib_refined))
