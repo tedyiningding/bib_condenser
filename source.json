@@ -1,0 +1,79 @@
+{
+    "fields": [
+        {
+            "inproceedings": ["author", "title", "booktitle", "year"],
+            "article": ["author", "title", "journal", "year"],
+            "book": ["author", "title", "publisher", "year"],
+            "phdthesis": ["author", "title", "school", "year"]
+        }
+    ],
+    "mappings": [
+        {
+            "conferences": 
+            {
+                "keywords": [
+                    "conference on computer vision and pattern recognition workshops",
+                    "conference on computer vision and pattern recognition",
+                    "international conference on computer vision workshops",
+                    "international conference on computer vision",
+                    "european conference on computer vision",
+                    "british machine vision conference",
+                    "winter conference on applications of computer vision",
+                    "asian conference on computer vision",
+                    "ieee conference on image processing",
+                    "ieee international conference on acoustics, speech and signal processing",
+                    "international conference on 3d vision",
+                    "international conference on pattern recognition",
+                    "acm international conference on multimedia",
+                    "international conference on machine learning",
+                    "international conference on learning representations",
+                    "advances in neural information processing systems",
+                    "aaai conference on artificial intelligence",
+                    "international conference on robotics and automation",
+                    "international conference on intelligent robots and systems",
+                    "robotics: science and systems"
+                ],
+                "abbreviations": [
+                    "CVPRW",
+                    "CVPR",
+                    "ICCVW",
+                    "ICCV",
+                    "ECCV",
+                    "BMVC",
+                    "WACV",
+                    "ACCV",
+                    "ICIP",
+                    "ICASSP",
+                    "3DV",
+                    "ICPR",
+                    "ACMMM",
+                    "ICML",
+                    "ICLR",
+                    "NeurIPS",
+                    "AAAI",
+                    "ICRA",
+                    "IROS",
+                    "RSS"
+                ]
+            },
+            "journals": {
+                "keywords": [
+                    "transactions on pattern analysis and machine intelligence",
+                    "transactions on image processing",
+                    "acm transactions on graphics",
+                    "international journal of computer vision",
+                    "international journal of robotics research",
+                    "robotics and automation letters"
+                ],
+                "abbreviations": [
+                    "PAMI",
+                    "TIP",
+                    "TOG",
+                    "IJCV",
+                    "IJRR",
+                    "RA-L"
+                ]
+            }
+        }
+    ]
+}
