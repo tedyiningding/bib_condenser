@@ -41,14 +41,14 @@ to
 The corresponding rendered Reference section in your paper will change from
 
 > [1] Heiko Hirschmuller. Stereo processing by semiglobal matching and mutual information. *IEEE Transactions on pattern analysis and machine intelligence*, 30(2):328–341, 2007.
-> 
->[2] Jia-Ren Chang and Yong-Sheng Chen. Pyramid stereo matching network. In *Proceedings of the IEEE conference on computer vision and pattern recognition*, pages 5410–5418, 2018.
+>
+> [2] Jia-Ren Chang and Yong-Sheng Chen. Pyramid stereo matching network. In *Proceedings of the IEEE conference on computer vision and pattern recognition*, pages 5410–5418, 2018.
 
 to
 
->[1] Heiko Hirschmuller. Stereo processing by semiglobal matching and mutual information. *PAMI*, 2007.
+> [1] Heiko Hirschmuller. Stereo processing by semiglobal matching and mutual information. *PAMI*, 2007.
 >
->[2] Jia-Ren Chang and Yong-Sheng Chen. Pyramid stereo matching network. In *CVPR*, 2018.
+> [2] Jia-Ren Chang and Yong-Sheng Chen. Pyramid stereo matching network. In *CVPR*, 2018.
 
 
 ## How to use
