@@ -75,5 +75,13 @@
                 ]
             }
         }
+    ],
+    "words_do_not_capitalise": [
+        "in",
+        "on",
+        "of",
+        "for",
+        "and",
+        "the"
     ]
 }
