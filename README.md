@@ -5,7 +5,7 @@ A simple [python script](./main.py), together with a [json file](./setup.json), 
 * abbreviating conference/journal names if avaialble (currently covering the area of **computer vision**, **robotics** and **machine/deep learning**)
 * capitalising words in conference and journal name, book title and publisher, and PhD thesis title and school.
 
-It changes bib files from [original_bib.bib](./original_bib.bib)
+As an example, it changes a bib file from
 ```bib
 @inproceedings{chang2018pyramid,
   title={Pyramid stereo matching network},
@@ -14,18 +14,21 @@ It changes bib files from [original_bib.bib](./original_bib.bib)
   pages={5410--5418},
   year={2018}
 }
+
 @phdthesis{hannah1974computer,
   title={Computer matching of areas in stereo images},
   author={Hannah, Marsha Jo},
   year={1974},
   school={Stanford University}
 }
+
 @book{hartley2003multiple,
   title={Multiple view geometry in computer vision},
   author={Hartley, Richard and Zisserman, Andrew},
   year={2003},
   publisher={Cambridge university press}
 }
+
 @article{hirschmuller2007stereo,
   title={Stereo processing by semiglobal matching and mutual information},
   author={Hirschmuller, Heiko},
@@ -36,8 +39,9 @@ It changes bib files from [original_bib.bib](./original_bib.bib)
   year={2007},
   publisher={IEEE}
 }
+
 ```
-to [refined_bib.bib](./refined_bib.bib):
+to:
 ```bib
 @inproceedings{chang2018pyramid,
     author = {Chang, Jia-Ren and Chen, Yong-Sheng},
@@ -45,18 +49,21 @@ to [refined_bib.bib](./refined_bib.bib):
     title = {Pyramid stereo matching network},
     year = {2018}
 }
+
 @phdthesis{hannah1974computer,
     author = {Hannah, Marsha Jo},
     school = {Stanford University},
     title = {Computer Matching of Areas in Stereo Images},
     year = {1974}
 }
+
 @book{hartley2003multiple,
     author = {Hartley, Richard and Zisserman, Andrew},
     publisher = {Cambridge University Press},
     title = {Multiple View Geometry in Computer Vision},
     year = {2003}
 }
+
 @article{hirschmuller2007stereo,
     author = {Hirschmuller, Heiko},
     journal = {PAMI},
