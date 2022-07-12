@@ -1,9 +1,15 @@
 # bib_condenser
 ## What does it do
 A simple [python script](./main.py), together with a [json file](./setup.json), that condenses and neatens bib entries by
-* discarding redundant fields;
-* abbreviating conference/journal names if avaialble (currently covering the area of **computer vision**, **robotics** and **machine/deep learning**)
-* capitalising words in conference and journal name, book title and publisher, and PhD thesis title and school.
+* discarding redundant fields
+* abbreviating conference/journal names if available in the following subjects 
+  * computer vision
+  * robotics
+  * machine/deep learning
+* capitalising words in
+  * conference and journal name
+  * book title and publisher
+  * PhD thesis title and school.
 
 As an example, it changes a bib file from
 ```bib
